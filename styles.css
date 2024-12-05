@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dac9c6;
+    color: #050505;
+  }
+  
+  h1, h2 {
+    color: #544152;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #050505;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #9758e1;
+  }
+  
+  /* Animación de imagen */
+  img {
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Listado de contacto */
+  ul {
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  ul li i {
+    margin-right: 10px;
+  }
+  
